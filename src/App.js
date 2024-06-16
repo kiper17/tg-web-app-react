@@ -9,6 +9,7 @@ import Form from "./components/Form/Form";
 const tg = window.Telegram.WebApp;
 
 function App() {
+
   const {onToggleButton, tg} = useTelegram()
 
   useEffect(() => {
